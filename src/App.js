@@ -1,26 +1,26 @@
-import React from "react" 
+import React, {useState, useEffect} from "react" 
 
-function GetData () {
-  const eachName = () => {
-    fetch ("http://localhost:3000/bots") 
+function GetTitles () {
+  const [titles, setTitles] = useState([])
+
+useEffect ( () => {  
+   fetch ("http://localhost:3000/bots") 
   .then(res => res.json())
   .then(data => {
-   data.map(item => {
-   return  item.name
+ const fetchedTitles = data.map( robot => robot.name)
+ setTitles(fetchedTitles)
   })
-    })}
- return  <li>{eachName}</li>
+}, [])
+return <ul>{titles.map((title, index) => <li className='robotnames' key={index}>{title}</li>)}</ul> 
 
-  }
-
+ 
+}
 function App() {
   return (
     <div className="App">
       <h1>BOT BATTLR</h1>
        <div>
-       <ul>
-         <GetData/>
-       </ul>
+        <GetTitles/>
      </div>
     </div>
   );

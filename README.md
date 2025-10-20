@@ -17,6 +17,8 @@ Markdown
 ## Functionality 
 The SPA is basically used to add and display bot details which are to be recruited to a bot army.
 It incorporates abilities to recruit, remove and as that is executed update the API accordingly.
+Still under advancement,,,,,,,,,
+
 
 
 
