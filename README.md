@@ -1,6 +1,6 @@
 # BOT BATTLR
 
-##### Welcome to Flatadango!!
+##### Welcome to Bot Battlr!!
 Welcome to Bot Battlr
 
 ## Functionality 
