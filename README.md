@@ -2,9 +2,11 @@
 
 ##### Welcome to Flatadango!!
 Welcome to Bot Battlr
+
+## Demos(Deployment details)
 checkout the deployment details 👇
-['netlify_link'](https://warbots.netlify.app/)
-['db.json_link'](https://robot-api-fixed.onrender.com)
+1. ['netlify_link'](https://warbots.netlify.app/)
+2. ['db.json_link'](https://robot-api-fixed.onrender.com)
 
 ## Functionality 
 Bot-Battlr is an SPA which aims to recruit and remove bots expected to fight for one's army.
