@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from "react"
 
-
 function BotProfile({handleClick, deletePermanently}) {
   const [bots, setBots] = useState([])
 
@@ -29,5 +28,5 @@ return(
    
 } 
 
-
 export default BotProfile;
+

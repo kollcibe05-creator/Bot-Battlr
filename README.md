@@ -1,6 +1,6 @@
 # BOT BATTLR
 
-##### Welcome to Bot Battlr!!
+##### Welcome to Flatadango!!
 Welcome to Bot Battlr
 
 ## Functionality 
@@ -8,7 +8,6 @@ Bot-Battlr is an SPA which aims to recruit and remove bots expected to fight for
 Upon opening the website, the user can see the bots available as rendered by the API. 
 Recruiting a bot to your army is achieved by clicking on the bot and the same is done to remove one from the *Your Army*.
 It is made possible by incorporating knowledge in JS, React and CSS in terms of *fetch* requests and rendering items conditionally.
-
 
 # Description
 The repo has folders and subfolders with some having some files  nested inside them ;
@@ -74,9 +73,9 @@ The contents of this file are within the scope of the syntax provided by the Com
 
 
 
-
 ## Support and contact details
 [`github account`](https://github.com/kollcibe05-creator)
+
 
 
 

@@ -50,7 +50,6 @@ function MyBotArmy () {
    </div>
 </div>
 
-
    
    )
 }
@@ -58,8 +57,8 @@ function MyBotArmy () {
 
 
 
-
 export default MyBotArmy;
+
 
 
 
