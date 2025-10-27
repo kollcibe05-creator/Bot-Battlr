@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <h1 id="maintitle">BOT BATTLR👾</h1>
        <div>
-      <MyBotArmy/>
+      <MyBotArmy/>      {/*MyBotArmy component has no props!!*/}
      </div>
     </div>
   );

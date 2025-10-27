@@ -1,7 +1,9 @@
+/*background color of the body*/
 body{
-    background-color: grey;
+    background-color: grey;     
 }
 
+/*main title styling*/
 #maintitle{
     background-color: yellowgreen;
     margin-left: -9px;
@@ -10,17 +12,23 @@ body{
     margin-right: -6px;
 }
 
+/*title styling*/
 #mybotarmy{
     color: greenyellow;
     text-align: center;
 }
 
-
+/*title styling*/
 #botcollection{
     color:brown;
     text-align: center;
 }
 
+
+
+/*BOT DETAILS*/
+
+/*generalizing the image attributes*/
 img{
     width: 200px;
     text-align: center;
@@ -37,7 +45,7 @@ img{
     background-color: aqua;
 }
 
-
+/*bot details*/
 .botdetails{
     color: green;
     text-align: center;
@@ -46,6 +54,8 @@ img{
     background-color: aqua;
 
 }
+
+/*bot profile div*/
 .botcontainer{
     text-align: center;
     border: 2px solid black;
@@ -58,6 +68,8 @@ img{
     margin: 40px;
     
 }
+
+/*bot profiles div container*/
 #botarmycontainer{
     display: block;
     margin-bottom: 100px;
@@ -69,6 +81,7 @@ img{
     display: block;
 }
 
+/*generalized button features*/
 button{
     background-color: red;
 }
