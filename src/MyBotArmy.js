@@ -40,7 +40,7 @@ function MyBotArmy () {
   }
 
    return (
-<div>
+<div class="styling_stuff">     {/*one of the containers must go*/}
     <div id="botarmycontainer">
     <h1 id="mybotarmy">MyBotArmy</h1>
     {/*mapping over the selected bots to determine their structure*/}
