@@ -6,7 +6,7 @@ function BotProfile({handleClick, deletePermanently}) {
   const [bots, setBots] = useState([])    //setting initial state of bots to be an empty array
 
 useEffect ( () => {  
-   fetch ("http://localhost:3000/bots")    //GET request upon user login this will be the first display//
+   fetch ("https://robot-api-o7l1.onrender.com")    //GET request upon user login this will be the first display//
   .then(res => res.json())
   .then(data => {
     setBots(data)      //setting initial render state  
