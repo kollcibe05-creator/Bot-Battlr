@@ -28,7 +28,7 @@ function MyBotArmy () {
 
   //DELETE request//
   function deletePermanently (id) {
-    fetch(`https://robot-api-o7l1.onrender.com/${id}`,{
+    fetch(`https://robot-api-o7l1.onrender.com/bots/${id}`,{
       method: "DELETE" 
     } 
     )
